@@ -5,12 +5,83 @@
     box-sizing: border-box;
   }
   
+  nav  {
+    background-color: rgb(255, 0, 255);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+  }
   body {
     background-color: rgb(255, 232, 240);
   }
 
   h1 {
-    background-color: green;
+    background-color: rgb(255, 0, 255);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 250%;
+  }
+  h2 {
+    background-color: rgb(255, 0, 255);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 200%;
+  }
+
+  h5  {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 115%;
+  }
+
+  h6 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+    color: hotpink;
+    
+  
+  }
+
+  p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+    text-align:justify
+  }
+
+  span {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+    text-align:justify;
+    font-style: italic;
+    font-weight: bold   ;
+  }
+
+  #one{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+    text-align:center;
+    font-weight: bold;
+
+  }
+
+  footer {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50%;
+    text-align:center
+  }
+
+  blockquote {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 150%;
+    font-style: italic;
+  }
+
+  form {
+    text-align:justify;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 150%;
+    font-style: italic;
+    background-color: aqua;
   }
   
   .heading {
@@ -24,32 +95,32 @@
   .row{
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4px;
+    padding:;
   }
   img {
-    flex-flow:1 1 25%;
-    max-width: 25%;
-    padding: 0 4px;
-    margin-top: 8px;
+    flex-flow:
+    max-width:
+    padding:
+    margin-top:
   
   }
-  @media  (max-width: 599px) {
+  @media  (max-width:) {
     img {
-  min-width: 100%;
+  min-width:;
     }
   
   }
   
-  @media  (max-width: 799px) {
+  @media  (max-width:) {
     img {
-  min-width: 50%;
+  min-width:;
     }
   
   }
   
-  @media  (max-width: 599px) {
+  @media  (max-width:) {
     img {
-  min-width: 100%;
+  min-width:
     }
   
   }
